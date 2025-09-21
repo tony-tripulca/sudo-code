@@ -28,7 +28,7 @@ Useful when working on:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sudo-code.git ~/sudo-code
+git clone git@github.com:tony-tripulca/sudo-code.git
 cd ~/sudo-code
 ```
 
