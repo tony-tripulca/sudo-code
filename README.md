@@ -21,14 +21,20 @@ Useful when working on:
 
 ## **Installation**
 
-1. Clone the repository:
+1. Connect to your server via SSH (AWS EC2 Example):
+
+```bash
+ssh -i your-key.pem username@ec2...aws.com 
+```
+
+2. Clone the repository on home folder, or any user session owned folder:
 
 ```bash
 git clone git@github.com:tony-tripulca/sudo-code.git
 cd ~/sudo-code
 ```
 
-2. Make the script executable:
+3. Make the script executable:
 
 ```bash
 chmod +x sudo-code.sh
