@@ -11,8 +11,6 @@ Useful when working on:
 3. Digital Ocean (Droplets)
 4. Google Cloud (GCP)
 
----
-
 ## **Features**
 
 - Open any root-owned file in VS Code GUI via Remote SSH  
@@ -20,8 +18,6 @@ Useful when working on:
 - Temporary files are cleaned up after saving  
 - Works for files in `/etc`, `/var`, or any location on your system  
 - No additional VS Code extensions required  
-
----
 
 ## **Installation**
 
@@ -46,8 +42,6 @@ sudo ln -s ~/sudo-code/sudo-code.sh /usr/local/bin/sudo-code
 
 Now you can run sudo-code from anywhere. Using a symlink keeps your Git repo intact so you can update it via `git pull` anytime.
 
----
-
 ## **Usage**
 
 1. Open a root-owned file
@@ -63,8 +57,6 @@ sudo-code /etc/apache2/sites-available/your-website.com.conf
     The script will automatically:
    1. Copy the changes back to the original root-owned file using sudo
    2. Remove the temporary file
-
----
 
 ## **Remarks**
 - Make sure you are connected to your server via VS Code Remote SSH.
